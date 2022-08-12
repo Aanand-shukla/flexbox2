@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+.box-wrapper{
+    display: flex;
+    border: 2px solid gray;
+    align-items: center;
+    height: 400px;
+}
+.box{
+    height: 178px;
+    width: 150px;
+}
+.box1{
+background-color: bisque;
+order:4
+}
+.box2{
+    background-color: cadetblue;
+    order: 1;
+}
+.box3{
+  background-color: coral;
+  order: 3;  
+}
+.box4{
+    background-color: blueviolet;
+    order: 2;
+}
